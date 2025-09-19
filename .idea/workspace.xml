@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd806165-50c1-4328-8ec6-00c52ff6939d" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/glimmerTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2/src/com/Example/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2/src/com/Example/tool/Print.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2/task2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2/task2.md" afterDir="false" />
+    <list default="true" id="bd806165-50c1-4328-8ec6-00c52ff6939d" name="更改" comment="提交第二题pdf">
+      <change afterPath="$PROJECT_DIR$/task3/task3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/Dev/Java/glimmerTest",
     "node.js.detected.package.eslint": "true",
@@ -64,7 +57,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Dev/Java/glimmerTest/task2/src/Main.java",
+    "onboarding.tips.debug.path": "D:/Dev/Java/glimmerTest/task3/src/Main.java",
     "project.structure.last.edited": "项目",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -109,11 +102,44 @@
       <option name="presentableId" value="Default" />
       <updated>1758207673065</updated>
       <workItem from="1758207674405" duration="563000" />
-      <workItem from="1758284201266" duration="2305000" />
+      <workItem from="1758284201266" duration="8327000" />
     </task>
+    <task id="LOCAL-00001" summary="提交第二题">
+      <option name="closed" value="true" />
+      <created>1758288790906</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758288790906</updated>
+    </task>
+    <task id="LOCAL-00002" summary="提交第二题pdf">
+      <option name="closed" value="true" />
+      <created>1758288903215</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758288903215</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交第二题" />
+    <MESSAGE value="提交第二题pdf" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交第二题pdf" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/task3/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
