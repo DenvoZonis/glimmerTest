@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd806165-50c1-4328-8ec6-00c52ff6939d" name="更改" comment="提交第10题">
-      <change afterPath="$PROJECT_DIR$/task9/src/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/src/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/src/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/src/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/src/doro.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/src/name.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/task9.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/task9.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bd806165-50c1-4328-8ec6-00c52ff6939d" name="更改" comment="提交第9题" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,7 +151,7 @@
       <workItem from="1758207674405" duration="563000" />
       <workItem from="1758284201266" duration="8549000" />
       <workItem from="1758295262254" duration="847000" />
-      <workItem from="1758328161206" duration="15349000" />
+      <workItem from="1758328161206" duration="16344000" />
     </task>
     <task id="LOCAL-00001" summary="提交第二题">
       <option name="closed" value="true" />
@@ -212,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758339095311</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="提交第9题">
+      <option name="closed" value="true" />
+      <created>1758356948225</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1758356948225</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +233,8 @@
     <MESSAGE value="提交第五题" />
     <MESSAGE value="提交第6题" />
     <MESSAGE value="提交第10题" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交第10题" />
+    <MESSAGE value="提交第9题" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交第9题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
