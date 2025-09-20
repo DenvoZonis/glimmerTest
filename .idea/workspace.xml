@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd806165-50c1-4328-8ec6-00c52ff6939d" name="更改" comment="提交第6题">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task10/Client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task10/Client/src/main/java/xyz/denvo/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task10/Server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task10/Server/src/main/java/xyz/denvo/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task10/task10.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task10/task10.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bd806165-50c1-4328-8ec6-00c52ff6939d" name="更改" comment="提交第10题">
+      <change afterPath="$PROJECT_DIR$/task9/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task9/src/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task9/src/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task9/src/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task9/src/doro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task9/src/name.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task9/task9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task9/task9.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task5/task5.md" beforeDir="false" afterPath="$PROJECT_DIR$/task5/task5.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +57,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.Client [clean].executor": "Run",
+    "Maven.Server [clean].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
@@ -72,7 +71,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Dev/Java/glimmerTest/task10/Client/src/main/java/xyz/denvo/Main.java",
+    "onboarding.tips.debug.path": "D:/Dev/Java/glimmerTest/task9/src/Main.java",
     "project.structure.last.edited": "项目",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -81,42 +80,19 @@
     "应用程序.Client.executor": "Run",
     "应用程序.HelloWorld.executor": "Run",
     "应用程序.MainExtend.executor": "Run",
-    "应用程序.Server.executor": "Run"
+    "应用程序.Server.executor": "Run",
+    "应用程序.Task1.executor": "Run",
+    "应用程序.Task2.executor": "Run",
+    "应用程序.Task3.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="应用程序.Server">
+  <component name="RunManager" selected="应用程序.Task3">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.denvo.Client" />
       <module name="Client" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="xyz.denvo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Example.HelloWorld" />
-      <module name="task2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="square.Main" />
-      <module name="task6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="square.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +113,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task1" />
+      <module name="task9" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task2" />
+      <module name="task9" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task3" />
+      <module name="task9" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Task3" />
+        <item itemvalue="应用程序.Task2" />
+        <item itemvalue="应用程序.Task1" />
         <item itemvalue="应用程序.Server" />
         <item itemvalue="应用程序.Client" />
-        <item itemvalue="应用程序.MainExtend" />
-        <item itemvalue="应用程序.HelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +162,7 @@
       <workItem from="1758207674405" duration="563000" />
       <workItem from="1758284201266" duration="8549000" />
       <workItem from="1758295262254" duration="847000" />
-      <workItem from="1758328161206" duration="9259000" />
+      <workItem from="1758328161206" duration="15349000" />
     </task>
     <task id="LOCAL-00001" summary="提交第二题">
       <option name="closed" value="true" />
@@ -206,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758332022693</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="提交第10题">
+      <option name="closed" value="true" />
+      <created>1758339095311</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1758339095311</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +235,8 @@
     <MESSAGE value="提交第三题" />
     <MESSAGE value="提交第五题" />
     <MESSAGE value="提交第6题" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交第6题" />
+    <MESSAGE value="提交第10题" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交第10题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
