@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd806165-50c1-4328-8ec6-00c52ff6939d" name="更改" comment="提交第三题" />
+    <list default="true" id="bd806165-50c1-4328-8ec6-00c52ff6939d" name="更改" comment="提交第五题">
+      <change afterPath="$PROJECT_DIR$/task6/src/bank/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task6/src/square/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task6/src/square/graphic/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task6/src/square/graphic/Graphic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task6/src/square/graphic/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task6/src/square/graphic/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task6/src/square/graphic2/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task6/src/square/graphic2/Graphic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task6/src/square/graphic2/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task6/src/square/graphic2/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task6/task6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task6/task6.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -20,18 +36,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "DenvoZonis"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DenvoZonis&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/DenvoZonis/glimmerTest.git",
-    "accountId": "5ad4d508-c546-425c-8c40-a702ca0eb9e3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DenvoZonis/glimmerTest.git&quot;,
+    &quot;accountId&quot;: &quot;5ad4d508-c546-425c-8c40-a702ca0eb9e3&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -54,16 +70,17 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Dev/Java/glimmerTest/task3/src/Main.java",
+    "onboarding.tips.debug.path": "D:/Dev/Java/glimmerTest/task6/src/Main.java",
     "project.structure.last.edited": "项目",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "http.proxy",
     "vue.rearranger.settings.migration": "true",
-    "应用程序.HelloWorld.executor": "Run"
+    "应用程序.HelloWorld.executor": "Run",
+    "应用程序.MainExtend.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="应用程序.MainExtend">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Example.HelloWorld" />
       <module name="task2" />
@@ -77,8 +94,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="square.Main" />
+      <module name="task6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="square.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.MainExtend" />
         <item itemvalue="应用程序.HelloWorld" />
       </list>
     </recent_temporary>
@@ -100,6 +131,8 @@
       <updated>1758207673065</updated>
       <workItem from="1758207674405" duration="563000" />
       <workItem from="1758284201266" duration="8549000" />
+      <workItem from="1758295262254" duration="847000" />
+      <workItem from="1758328161206" duration="3523000" />
     </task>
     <task id="LOCAL-00001" summary="提交第二题">
       <option name="closed" value="true" />
@@ -125,17 +158,37 @@
       <option name="project" value="LOCAL" />
       <updated>1758294924686</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="提交第五题">
+      <option name="closed" value="true" />
+      <created>1758296787287</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1758296787287</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交第二题" />
     <MESSAGE value="提交第二题pdf" />
     <MESSAGE value="提交第三题" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交第三题" />
+    <MESSAGE value="提交第五题" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交第五题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
