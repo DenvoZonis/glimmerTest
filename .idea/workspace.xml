@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd806165-50c1-4328-8ec6-00c52ff6939d" name="更改" comment="提交第9题的pdf">
-      <change afterPath="$PROJECT_DIR$/task4/task4.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task8/Task2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task8/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task8/task2-screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task8/task8.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="bd806165-50c1-4328-8ec6-00c52ff6939d" name="更改" comment="提交第8题，修改第3题的注释，完成部分第4题">
+      <change afterPath="$PROJECT_DIR$/task4/src/MockSongs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task7/task7.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task3/task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/task3/task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/task1.md" beforeDir="false" afterPath="$PROJECT_DIR$/task1/task1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task10/task10.md" beforeDir="false" afterPath="$PROJECT_DIR$/task10/task10.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2/task2.md" beforeDir="false" afterPath="$PROJECT_DIR$/task2/task2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3/task3.md" beforeDir="false" afterPath="$PROJECT_DIR$/task3/task3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task5/task5.md" beforeDir="false" afterPath="$PROJECT_DIR$/task5/task5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task6/task6.md" beforeDir="false" afterPath="$PROJECT_DIR$/task6/task6.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task8/task8.md" beforeDir="false" afterPath="$PROJECT_DIR$/task8/task8.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task9/task9.md" beforeDir="false" afterPath="$PROJECT_DIR$/task9/task9.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +81,7 @@
     "应用程序.Client.executor": "Run",
     "应用程序.HelloWorld.executor": "Run",
     "应用程序.MainExtend.executor": "Run",
+    "应用程序.MockSongs.executor": "Run",
     "应用程序.Server.executor": "Run",
     "应用程序.Task1.executor": "Run",
     "应用程序.Task2 (1).executor": "Run",
@@ -86,7 +90,7 @@
     "应用程序.Task3.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="应用程序.Task3 (1)">
+  <component name="RunManager" selected="应用程序.MockSongs">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.denvo.Client" />
       <module name="Client" />
@@ -96,6 +100,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockSongs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MockSongs" />
+      <module name="task4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,34 +124,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task2" />
-      <module name="task4" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task3" />
-      <module name="task4" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task3" />
-      <module name="task9" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Task3 (1)" />
-        <item itemvalue="应用程序.Task2 (1)" />
+        <item itemvalue="应用程序.MockSongs" />
         <item itemvalue="应用程序.Client" />
         <item itemvalue="应用程序.Server" />
-        <item itemvalue="应用程序.Task3" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +155,7 @@
       <workItem from="1758366848539" duration="141000" />
       <workItem from="1758641091937" duration="360000" />
       <workItem from="1758762270479" duration="4838000" />
-      <workItem from="1758850956284" duration="6738000" />
+      <workItem from="1758850956284" duration="22695000" />
     </task>
     <task id="LOCAL-00001" summary="提交第二题">
       <option name="closed" value="true" />
@@ -233,7 +221,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758358191740</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="提交第8题，修改第3题的注释，完成部分第4题">
+      <option name="closed" value="true" />
+      <created>1758858047156</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1758858047156</updated>
+    </task>
+    <task id="LOCAL-00010" summary="提交第8题，修改第3题的注释，完成部分第4题">
+      <option name="closed" value="true" />
+      <created>1758858056790</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1758858056790</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +263,8 @@
     <MESSAGE value="提交第10题" />
     <MESSAGE value="提交第9题" />
     <MESSAGE value="提交第9题的pdf" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交第9题的pdf" />
+    <MESSAGE value="提交第8题，修改第3题的注释，完成部分第4题" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交第8题，修改第3题的注释，完成部分第4题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

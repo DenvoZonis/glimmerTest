@@ -10,11 +10,11 @@ FileInputStream类的read方法在返回-1时表示文件以及读取完成，�
 
 至于字节流需要关闭的问题，这一点很多语言都差不多，使用完了必须关闭它们来释放资源。不过java的try-with-resources语法糖可以自动关闭实现了closeable接口的对象（这里使用的两个FileStream也不例外）。
 
-## Task2
+## Task3
 
 Q: 设计一个程序: 读取name.txt 将表中的人名按照unicode自然排序 每个人名占据一行 在项目根目录下创建name_sorted.txt文件 将排序后的内容写入name_sorted.txt文件 要求去掉多余的首尾空格与空行。
 
-A: 程序参见task9/src/Task2.java。其中读取和写入分别使用了3个流，一个用于输入/出，一个用于转换编码，一个用于缓冲。它们各司其职，完成了这个工作。
+A: 程序参见task9/src/Task3.java。其中读取和写入分别使用了3个流，一个用于输入/出，一个用于转换编码，一个用于缓冲。它们各司其职，完成了这个工作。
 
 关闭流的时候可以像task9的Task1一样用try-with-resources来关闭。
 
