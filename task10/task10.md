@@ -117,7 +117,7 @@ A: 以上常用命令全部包含。除这些之外，还有：
 - verify   //检查代码质量
 - site   //生成项目信息网站
 
-## Task3
+## Task2
 
 客户端源代码参见task10/Client/src，服务端源代码参见task10/Server/src。以下为运行结果:
 

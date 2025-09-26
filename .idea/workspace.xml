@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd806165-50c1-4328-8ec6-00c52ff6939d" name="更改" comment="提交第8题，修改第3题的注释，完成部分第4题">
-      <change afterPath="$PROJECT_DIR$/task4/src/MockSongs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task7/task7.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1/task1.md" beforeDir="false" afterPath="$PROJECT_DIR$/task1/task1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task10/task10.md" beforeDir="false" afterPath="$PROJECT_DIR$/task10/task10.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task2/task2.md" beforeDir="false" afterPath="$PROJECT_DIR$/task2/task2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task3/task3.md" beforeDir="false" afterPath="$PROJECT_DIR$/task3/task3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task5/task5.md" beforeDir="false" afterPath="$PROJECT_DIR$/task5/task5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task6/task6.md" beforeDir="false" afterPath="$PROJECT_DIR$/task6/task6.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task8/task8.md" beforeDir="false" afterPath="$PROJECT_DIR$/task8/task8.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task9/task9.md" beforeDir="false" afterPath="$PROJECT_DIR$/task9/task9.md" afterDir="false" />
-    </list>
+    <list default="true" id="bd806165-50c1-4328-8ec6-00c52ff6939d" name="更改" comment="提交第7题" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,7 +143,7 @@
       <workItem from="1758366848539" duration="141000" />
       <workItem from="1758641091937" duration="360000" />
       <workItem from="1758762270479" duration="4838000" />
-      <workItem from="1758850956284" duration="22695000" />
+      <workItem from="1758850956284" duration="23071000" />
     </task>
     <task id="LOCAL-00001" summary="提交第二题">
       <option name="closed" value="true" />
@@ -237,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758858056790</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="提交第7题">
+      <option name="closed" value="true" />
+      <created>1758896324154</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1758896324154</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +260,8 @@
     <MESSAGE value="提交第9题" />
     <MESSAGE value="提交第9题的pdf" />
     <MESSAGE value="提交第8题，修改第3题的注释，完成部分第4题" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交第8题，修改第3题的注释，完成部分第4题" />
+    <MESSAGE value="提交第7题" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交第7题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

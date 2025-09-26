@@ -28,7 +28,7 @@ A: 程序参见task9/src/Task3.java。其中读取和写入分别使用了3个�
 
 而用newLine()方法，程序员就不需要关心对应的操作系统也能正确换行了，这也体现了Java“一次编译，到处运行”的口号。
 
-## Task3
+## Task2
 
 Q: 用下面的代码 创建一个student对象 使用序列化将该对象的信息储存在项目文件根目录下的student.dat文件中 再使用反序列化将数据赋值给新的Student对象doro 最后输出doro的信息 ( Student的toString方法已重写好了)
 
