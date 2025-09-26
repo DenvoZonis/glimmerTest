@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 /**
  * task3的task3的最后代码
- * @author 王鸿宇 2025090903021
  */
 public class task3 {
     private static HashMap<String, HashMap<String, Integer>> totalMap = new HashMap<>(2);

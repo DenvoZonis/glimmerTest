@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd806165-50c1-4328-8ec6-00c52ff6939d" name="更改" comment="提交第9题" />
+    <list default="true" id="bd806165-50c1-4328-8ec6-00c52ff6939d" name="更改" comment="提交第9题的pdf">
+      <change afterPath="$PROJECT_DIR$/task4/task4.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task8/Task2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task8/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task8/task2-screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task8/task8.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3/task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/task3/task3.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,22 +69,24 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Dev/Java/glimmerTest/task9/src/Main.java",
+    "onboarding.tips.debug.path": "D:/Dev/Java/glimmerTest/task4/src/Main.java",
     "project.structure.last.edited": "项目",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "http.proxy",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true",
     "应用程序.Client.executor": "Run",
     "应用程序.HelloWorld.executor": "Run",
     "应用程序.MainExtend.executor": "Run",
     "应用程序.Server.executor": "Run",
     "应用程序.Task1.executor": "Run",
+    "应用程序.Task2 (1).executor": "Run",
     "应用程序.Task2.executor": "Run",
+    "应用程序.Task3 (1).executor": "Run",
     "应用程序.Task3.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="应用程序.Task3">
+  <component name="RunManager" selected="应用程序.Task3 (1)">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.denvo.Client" />
       <module name="Client" />
@@ -102,16 +113,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task1" />
-      <module name="task9" />
+    <configuration name="Task2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task2" />
+      <module name="task4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task2" />
-      <module name="task9" />
+    <configuration name="Task3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task3" />
+      <module name="task4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Task3" />
-        <item itemvalue="应用程序.Task2" />
-        <item itemvalue="应用程序.Task1" />
-        <item itemvalue="应用程序.Server" />
+        <item itemvalue="应用程序.Task3 (1)" />
+        <item itemvalue="应用程序.Task2 (1)" />
         <item itemvalue="应用程序.Client" />
+        <item itemvalue="应用程序.Server" />
+        <item itemvalue="应用程序.Task3" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +162,12 @@
       <workItem from="1758207674405" duration="563000" />
       <workItem from="1758284201266" duration="8549000" />
       <workItem from="1758295262254" duration="847000" />
-      <workItem from="1758328161206" duration="16344000" />
+      <workItem from="1758328161206" duration="17083000" />
+      <workItem from="1758364458371" duration="8000" />
+      <workItem from="1758366848539" duration="141000" />
+      <workItem from="1758641091937" duration="360000" />
+      <workItem from="1758762270479" duration="4838000" />
+      <workItem from="1758850956284" duration="6738000" />
     </task>
     <task id="LOCAL-00001" summary="提交第二题">
       <option name="closed" value="true" />
@@ -209,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758356948225</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="提交第9题的pdf">
+      <option name="closed" value="true" />
+      <created>1758358191740</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1758358191740</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +258,8 @@
     <MESSAGE value="提交第6题" />
     <MESSAGE value="提交第10题" />
     <MESSAGE value="提交第9题" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交第9题" />
+    <MESSAGE value="提交第9题的pdf" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交第9题的pdf" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
