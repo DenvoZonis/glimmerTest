@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd806165-50c1-4328-8ec6-00c52ff6939d" name="更改" comment="完成第4题的Task1-3">
+    <list default="true" id="bd806165-50c1-4328-8ec6-00c52ff6939d" name="更改" comment="更新第4题Task4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task4/src/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/task4/src/Task4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task4/task4.md" beforeDir="false" afterPath="$PROJECT_DIR$/task4/task4.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +154,9 @@
       <workItem from="1758641091937" duration="360000" />
       <workItem from="1758762270479" duration="4838000" />
       <workItem from="1758850956284" duration="27994000" />
-      <workItem from="1758985941257" duration="601000" />
+      <workItem from="1758985941257" duration="616000" />
+      <workItem from="1759544031346" duration="23000" />
+      <workItem from="1759742628872" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="提交第二题">
       <option name="closed" value="true" />
@@ -262,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758901145212</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="更新第4题Task4">
+      <option name="closed" value="true" />
+      <created>1758986551357</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1758986551357</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +300,8 @@
     <MESSAGE value="提交第7题" />
     <MESSAGE value="修复markdown中序号不正确的问题" />
     <MESSAGE value="完成第4题的Task1-3" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成第4题的Task1-3" />
+    <MESSAGE value="更新第4题Task4" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新第4题Task4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
