@@ -115,7 +115,7 @@ pic.webp：
 ![pic](pic.webp)
 
 然后直接修改`/etc/nginx/sites-available/default`,修改里面默认的server块，内容如下：
-```json
+```ini
 server {
     listen 81 default_server;
     listen [::]:80 default_server;
@@ -156,7 +156,7 @@ Main01  Main01.java  Main02  Main02.java  Main03  Main03.java
 使用`./Main01`来启动Main01类。Main02和Main03类似。
 
 接下来修改上面的server块。为了方便我把端口改回了80端口，然后在server块中新增一个location块：
-```json
+```ini
 server {
     ...
     location /hello {
@@ -168,7 +168,7 @@ server {
 ```
 
 保存之后，修改nginx配置文件（`/etc/nginx/nginx.conf`），在http块中新增一个upstream块：
-```json
+```ini
 http {
     ...
     upstream uploadBalance {
@@ -195,7 +195,7 @@ Hello World! from 8001
 不过Nginx默认的方式是轮询，这里还有其他方式：
 
 - 加权轮询
-    ```json
+    ```ini
     upstream uploadBalance {
         server 127.0.0.1:8001 weight=3;
         server 127.0.0.1:8002 weight=2;
@@ -204,7 +204,7 @@ Hello World! from 8001
     ```
     设置的权重越大，被分配到的请求越多。
 - 最少连接数
-    ```json
+    ```ini
     upstream uploadBalance {
         least_conn;
         server 127.0.0.1:8001;
@@ -214,7 +214,7 @@ Hello World! from 8001
     ```
     把新连接分配给现有连接数最少的服务器。
 - IP哈希
-    ```json
+    ```ini
     upstream uploadBalance {
         ip_hash;
         server 127.0.0.1:8001;
