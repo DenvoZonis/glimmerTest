@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd806165-50c1-4328-8ec6-00c52ff6939d" name="更改" comment="修复附加题3的md文件渲染问题">
+    <list default="true" id="bd806165-50c1-4328-8ec6-00c52ff6939d" name="更改" comment="完成附加题4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4/src/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/task4/src/Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4/task4.md" beforeDir="false" afterPath="$PROJECT_DIR$/task4/task4.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,41 +48,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.Client [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Server [clean].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Dev/Java/glimmerTest&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Dev/Java/glimmerTest/task4/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.Client.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.HelloWorld.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.MainExtend.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.MockSongs.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Server.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Task1.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Task2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Task2.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Task3 (1).executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Task3.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.Client [clean].executor": "Run",
+    "Maven.Server [clean].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Dev/Java/glimmerTest",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Dev/Java/glimmerTest/task4/src/Main.java",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.Client.executor": "Run",
+    "应用程序.HelloWorld.executor": "Run",
+    "应用程序.MainExtend.executor": "Run",
+    "应用程序.MockSongs.executor": "Run",
+    "应用程序.Server.executor": "Run",
+    "应用程序.Task1.executor": "Run",
+    "应用程序.Task2 (1).executor": "Run",
+    "应用程序.Task2.executor": "Run",
+    "应用程序.Task3 (1).executor": "Run",
+    "应用程序.Task3.executor": "Run",
+    "应用程序.Task4.executor": "Run"
   }
-}</component>
-  <component name="RunManager" selected="应用程序.Task3">
+}]]></component>
+  <component name="RunManager" selected="应用程序.Task4">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.denvo.Client" />
       <module name="Client" />
@@ -121,8 +124,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task4" />
+      <module name="task4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Task4" />
         <item itemvalue="应用程序.Task3" />
         <item itemvalue="应用程序.Task2" />
         <item itemvalue="应用程序.Client" />
@@ -159,6 +170,8 @@
       <workItem from="1759742628872" duration="25000" />
       <workItem from="1759754482799" duration="562000" />
       <workItem from="1759804257303" duration="15000" />
+      <workItem from="1759824704817" duration="654000" />
+      <workItem from="1759832613106" duration="3461000" />
     </task>
     <task id="LOCAL-00001" summary="提交第二题">
       <option name="closed" value="true" />
@@ -296,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759754872414</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="完成附加题4">
+      <option name="closed" value="true" />
+      <created>1759824766026</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1759824766026</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +351,8 @@
     <MESSAGE value="完成附加题1和3" />
     <MESSAGE value="更新readme" />
     <MESSAGE value="修复附加题3的md文件渲染问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复附加题3的md文件渲染问题" />
+    <MESSAGE value="完成附加题4" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成附加题4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
