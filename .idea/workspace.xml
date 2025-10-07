@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd806165-50c1-4328-8ec6-00c52ff6939d" name="更改" comment="更新第4题Task4">
+    <list default="true" id="bd806165-50c1-4328-8ec6-00c52ff6939d" name="更改" comment="修复附加题3的md文件渲染问题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,6 +157,8 @@
       <workItem from="1758985941257" duration="616000" />
       <workItem from="1759544031346" duration="23000" />
       <workItem from="1759742628872" duration="25000" />
+      <workItem from="1759754482799" duration="562000" />
+      <workItem from="1759804257303" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="提交第二题">
       <option name="closed" value="true" />
@@ -270,7 +272,31 @@
       <option name="project" value="LOCAL" />
       <updated>1758986551357</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="完成附加题1和3">
+      <option name="closed" value="true" />
+      <created>1759754614925</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1759754614925</updated>
+    </task>
+    <task id="LOCAL-00016" summary="更新readme">
+      <option name="closed" value="true" />
+      <created>1759754713590</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1759754713590</updated>
+    </task>
+    <task id="LOCAL-00017" summary="修复附加题3的md文件渲染问题">
+      <option name="closed" value="true" />
+      <created>1759754872414</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1759754872414</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +327,10 @@
     <MESSAGE value="修复markdown中序号不正确的问题" />
     <MESSAGE value="完成第4题的Task1-3" />
     <MESSAGE value="更新第4题Task4" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新第4题Task4" />
+    <MESSAGE value="完成附加题1和3" />
+    <MESSAGE value="更新readme" />
+    <MESSAGE value="修复附加题3的md文件渲染问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复附加题3的md文件渲染问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
